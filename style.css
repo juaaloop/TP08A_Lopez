@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black ;
+}
+
+header {
+    background-image: url(img/banner-nav3.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 38px;
+    padding: 3%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header nav {
+    backdrop-filter: blur(4px);
+    margin-top: 0%;
+    background-color: rgba(255, 255, 225, 0.5);
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+}
+
+header p {
+    color: #fff7e0;
+    padding: 2%;
+}
+
+header form {
+    float: right;
+    width: 12%;
+    margin-right: 5%;
+}
+
+header input {
+    clear: both;
+    margin-bottom: 2%;
+    padding: 2%;
+    width: 100%;
+    border-radius: 5px;
+    margin-right: 5%;
+    border: 1px solid #9b9b9b;
+
+}
+
+input[type="submit"] {
+    border: 1px solid #9b9b9b;
+    background-color: #f3f0e8;
+    width: 70%;
+    padding: 4%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+header nav ul li {
+    float: left;
+    width: 12%;
+    padding: 2%;
+    list-style: none;
+    text-align: center;
+    border-right: 1px solid #272526;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 16   px;
+    font-weight: bold;
+    color: #352f2f;
+}
+
+main {
+width: 90%;
+margin-left: 5%;
+display: inline-block;
+}
+div{
+    margin-left: 6.25%;
+    width: 20%;
+    float: left;
+    padding: 1%;
+}
