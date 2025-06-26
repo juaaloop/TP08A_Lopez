@@ -1,7 +1,6 @@
 * {
     margin: 0%;
     padding: 0%;
-
 }
 
 h1,
@@ -13,7 +12,7 @@ a {
 p,
 b,
 li {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -69,45 +68,64 @@ input[type="submit"] {
 header nav ul {
     margin-left: 10%;
     margin-top: 0%;
+    list-style: none;
 }
 
 header nav ul li {
     float: left;
-    width: 10%;
+    width: 15%;
     padding: 1%;
-    list-style: none;
     text-align: center;
-    border-right: 1px solid #272526;
+    border-right: 1px solid #ffffff;
 }
 
 header nav ul li a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
 }
 
 main {
+    width: 100%;
+    display: inline-block;
+    background-color: #c7a7ae;
+}
+
+main section {
     width: 90%;
     margin-left: 5%;
     display: inline-block;
 }
 
 div {
-    margin-left: 6.25%;
+    margin-left: 7%;
     margin-top: 2.5%;
+    margin-bottom: 4%;
+
     width: 20%;
     float: left;
-    padding: 2.5%;
+    padding: 2%;
     padding-bottom: 2%;
     border-radius: 15px;
+    border: 5px solid white;
+    background-color: rgba(255, 255, 255, 0.603);
+    color: #332f32;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+
+
 }
 
 div img {
     margin-top: 5%;
     margin-bottom: 3%;
-    margin-left: 15%;
-    width: 70%;
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow:
+        0 0 15px rgba(121, 82, 93, 0.8),
+        0 0 30px rgba(121, 82, 93, 0.4),
+        0 0 45px rgba(121, 82, 93, 0.2);
 }
 
 main ul {
@@ -116,27 +134,30 @@ main ul {
 }
 
 main ul li {
-    list-style: none;
+    list-style-type: "✦";
     clear: both;
     font-size: 14px;
     padding: 1%;
+    border-top: 1px solid #272526;
+    margin-top: 1%;
 }
 
 main div p {
     font-size: 16px;
+    text-align: justify;
 }
 
 div:hover ul {
     display: block;
-    opacity: 1;
-
 }
 
 div:hover {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
-    transition: padding 0.8s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.8s ease;
+    box-shadow:
+        0 0 40px rgba(255, 255, 255, 0.65),
+        0 0 80px rgba(255, 255, 255, 0.4);
 }
 
 div li:first-child {
@@ -144,7 +165,15 @@ div li:first-child {
     margin-top: 2%;
 }
 
-div li {
-    border-top: 1px solid #866961e7;
-    margin-top: 1%;
+footer {
+    background-color: #06101C;
+    color: #c7a7ae;
+    width: 100%;
+    display: inline-block;
+    padding-top: 0.75%;
+    padding-bottom: 0.75%;
+}
+
+footer p {
+    margin-left: 5%;
 }
